@@ -214,30 +214,30 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"01a7e8933afd7c95fe894b0859308138","Namespace":7}
+    Value: "/Objects/Duration_RT/UI/MainWindow"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":12,"Namespace":3}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"8da2b5865c73184b748c69f73d34bedf","Namespace":7}
+    Value: "/Objects/Duration_RT/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":447,"Namespace":3}
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: {"Id":46,"Namespace":1}
+    Value: "/Objects/Users/Anonymous"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":14,"Namespace":1}
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
 - Name: MainWindow
@@ -276,6 +276,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 24.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 116.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
   - Name: Duration2
     Type: DurationPicker
     Children:
@@ -297,6 +307,16 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#00ffff"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 116.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
   - Name: Duration3
     Type: DurationPicker
     Children:
@@ -334,6 +354,16 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../Duration2/TextColor"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 116.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
 - File: Screens/Screens.yaml
 - Name: WebPresentationEngine
   Type: ns=8;PresentationEngine
@@ -353,30 +383,30 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"01a7e8933afd7c95fe894b0859308138","Namespace":7}
+    Value: "/Objects/Duration_RT/UI/MainWindow"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":12,"Namespace":3}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"8da2b5865c73184b748c69f73d34bedf","Namespace":7}
+    Value: "/Objects/Duration_RT/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":447,"Namespace":3}
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: {"Id":46,"Namespace":1}
+    Value: "/Objects/Users/Anonymous"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":14,"Namespace":1}
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
     Children:
@@ -412,7 +442,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":1}
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
       - Name: ActualLocaleId
         Type: BaseVariableType
         DataType: LocaleId
