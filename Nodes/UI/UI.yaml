@@ -280,12 +280,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 116.0
+      Value: 105.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 1
+      Value: 2
   - Name: Duration2
     Type: DurationPicker
     Children:
@@ -311,12 +311,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 116.0
+      Value: 105.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 1
+      Value: 2
   - Name: Duration3
     Type: DurationPicker
     Children:
@@ -358,12 +358,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 116.0
+      Value: 105.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 1
+      Value: 2
 - File: Screens/Screens.yaml
 - Name: WebPresentationEngine
   Type: ns=8;PresentationEngine
